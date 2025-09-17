@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scorpion Paints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Scorpion Paints</h1>
+            <p>Your go-to place for premium paints!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Scorpion Paints</h2>
+        <p>Bringing colors to life with premium quality paints.</p>
+        <button onclick="location.href='#products'">Browse Our Products</button>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Interior Paint</h3>
+            <p>High-quality interior paints in various shades and finishes.</p>
+        </div>
+        <div class="product">
+            <h3>Exterior Paint</h3>
+            <p>Durable exterior paints that stand up to weather conditions.</p>
+        </div>
+        <div class="product">
+            <h3>Specialty Paints</h3>
+            <p>Custom paints for unique needs, from anti-rust to textured finishes.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for inquiries or custom orders.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Scorpion Paints. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
